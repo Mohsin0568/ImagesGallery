@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?borderlessButtonStyle"
+        android:text="From Camera"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/add_image_from_camera"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/add_image_from_camera"
+        style="?borderlessButtonStyle"
+        android:text="From Gallery"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/add_image_from_gallery"/>
+
+</RelativeLayout>

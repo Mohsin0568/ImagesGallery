@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gallery.images.com.imagesgallery.NoImagesFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addimages"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/add_icon_home"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_icon_home"
+        android:layout_marginTop="30dp"
+        style="?borderlessButtonStyle"
+        android:text="Add from Gallery"
+        android:textAllCaps="false"
+        android:textColor="@color/teal"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/add_from_gallery"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_from_gallery"
+        android:layout_marginTop="20dp"
+        style="?borderlessButtonStyle"
+        android:text="Add from Camera"
+        android:textAllCaps="false"
+        android:textColor="@color/teal"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/take_from_camera"/>
+
+
+
+
+</RelativeLayout>
+

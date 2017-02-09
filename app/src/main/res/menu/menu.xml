@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/select_images" android:title="Select Images"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_foursquare"/>
+
+    <item android:id="@+id/add_images" android:title="Add Images"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/delete_images" android:title="Delete Images"
+        android:icon="@drawable/ic_action_trash"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/share_images" android:title="Share Images"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/set_as_image" android:title="Set Image As"
+        android:icon="@drawable/ic_action_picture"
+        android:visible="false"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
